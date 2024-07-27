@@ -15,3 +15,14 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
 }
+
+button{
+    font-size: 25px;
+    
+}
+.buton{
+    border-radius: 10px;
+    background-color: rgb(255, 231, 200);
+    margin-left: 600px;
+    text-transform: uppercase;
+}

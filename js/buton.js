@@ -1,6 +1,5 @@
-//crear una aplicacion para un cinema con son 50 cupos
-
-contador=0
+function mostrar(){
+    contador=0
 seguir="si"
 
 
@@ -14,12 +13,4 @@ while(seguir=="si"){
     }
     document.write("cupos comprados "+cupos+"<br>"+"total: "+contador+"<br>")
 }
-
-
-
-
-
-
-
-
-
+}
