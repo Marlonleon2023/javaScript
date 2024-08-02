@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form id="calculator">
+        <h1>Calculadora</h1>
+        <label for="operation">Operación:</label>
+        <select name="operation" id="operation">
+            <option value="division">División</option>
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            
+        </select>
+
+        <label for="number1">Número 1:</label>
+        <input type="number" id="number1" name="number1" required>
+        <br><br>
+        <label for="number2">Número 2:</label>
+        <input type="number" id="number2" name="number2" required>
+        <br><br>
+        <button type="button" onclick="calculate()">Calcular</button>
+    
+       
+      
+    <h2>Resultado: <span id="result"></span></h2>
+    </form>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    form {
+        background: #fff;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    input, select {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+    }
+    button {
+        background-color: #42aaff;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #da89ff;
+    }
+    h2 {
+        text-align: left;
+        color: #333;
+    }
+</style>
+    
+</body>
+
+
+</html>
